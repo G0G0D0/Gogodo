@@ -1,0 +1,92 @@
+header {
+    min-height: 300px;
+    background-color: rgb(77, 202, 77);
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 span {
+    position: relative;
+    /* top: 20px; */
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-family: 'Titan One'cursive;
+    font-size: 80px;
+    text-shadow: 0 1px 0 green, 0 2px 0 green, 0 3px 0 green, 0 4px 0 green, 0 5px 0 green, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(2) {
+    animation-delay: .1s;
+}
+
+h1 span:nth-child(3) {
+    animation-delay: .2s;
+}
+
+h1 span:nth-child(4) {
+    animation-delay: .3s;
+}
+
+h1 span:nth-child(5) {
+    animation-delay: .4s;
+}
+
+h1 span:nth-child(6) {
+    animation-delay: .5s;
+}
+
+h1 span:nth-child(7) {
+    animation-delay: .6s;
+}
+
+h1 span:nth-child(8) {
+    animation-delay: .7s;
+}
+
+@keyframes bounce {
+    100% {
+        top: -10px;
+    }
+}
+
+header p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 358px) {
+    header h1 span {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    header h1 span {
+        font-size: 40px;
+    }
+    header p {
+        font-size: 15px
+    }
+    ;
+}
+                    /* wnw */
+                    
+.tabs .indicator {
+    background-color: greenyellow;
+}
+
+/* intro */
+
+.intro{
+    margin-top: 134px;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+.intro p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
